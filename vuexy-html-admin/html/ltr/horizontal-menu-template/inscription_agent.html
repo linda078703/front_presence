@@ -564,13 +564,13 @@
                 <div class="content-header-left col-md-9 col-12 mb-2">
                     <div class="row breadcrumbs-top">
                         <div class="col-12">
-                            <h2 class="content-header-title float-left mb-0">Liste deploiement</h2>
+                            <h2 class="content-header-title float-left mb-0">agent</h2>
                             <div class="breadcrumb-wrapper col-12">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.html">Home</a>
                                     </li>
                                 
-                                    <li class="breadcrumb-item active">Liste deploiement
+                                    <li class="breadcrumb-item active">agent
                                     </li>
                                 </ol>
                             </div>
@@ -656,7 +656,7 @@
                         <div class="add-new-data">
                             <div class="div mt-2 px-2 d-flex new-data-title justify-content-between">
                                 <div>
-                                    <h4 class="text-uppercase">Ajouter un deploiment</h4>
+                                    <h4 class="text-uppercase">Ajouter un agent</h4>
                                 </div>
                                 <div class="hide-data-sidebar">
                                     <i class="feather icon-x"></i>
@@ -666,20 +666,24 @@
                                 <div class="data-fields px-2 mt-3">
                                     <div class="row">
                                         <div class="col-sm-12 data-field-col">
-                                            <label for="data-name">Libelle</label>
+                                            <label for="data-name">Nom</label>
                                             <input type="text" class="form-control" id="data-name">
                                         </div>
                                         <div class="col-sm-12 data-field-col">
-                                            <label for="data-category"> Equipe </label>
-                                            <select class="form-control" id="data-category">
-                                                <option>Audio</option>
-                                                <option>Computers</option>
-                                                <option>Fitness</option>
-                                                <option>Appliance</option>
-                                            </select>
+                                            <label for="data-category">Prenom</label>
+                                            <input type="text" class="form-control" id="data-name">
+                                        </div>
+                                      
+                                        <div class="col-sm-12 data-field-col">
+                                            <label for="data-status">telephone</label>
+                                            <input type="tel" class="form-control" id="data-name">
                                         </div>
                                         <div class="col-sm-12 data-field-col">
-                                            <label for="data-status"> Site</label>
+                                            <label for="data-status"> E-mail</label>
+                                            <input type="email" class="form-control" id="data-name">
+                                        </div>
+                                        <div class="col-sm-12 data-field-col">
+                                            <label for="data-status">Pole</label>
                                             <select class="form-control" id="data-status">
                                                 <option>Pending</option>
                                                 <option>Canceled</option>
@@ -687,6 +691,7 @@
                                                 <option>On Hold</option>
                                             </select>
                                         </div>
+                                        
                                         <!--
                                         <div class="col-sm-12 data-field-col">
                                             <label for="data-price">Price</label>
